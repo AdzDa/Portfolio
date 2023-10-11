@@ -1,0 +1,39 @@
+buy 1- model baju
+buy 2-pair of shoe
+buy 3 - seluar(model ke bawah)
+cart.png (kekal)
+
+category 1- kasut (dgn model)
+kategori 2 - kasut kaki sahaja
+kategori 3- model dgn hoodie
+
+
+download-onappstore; kekal
+
+exlusive: huawei band
+
+gallery(1-4)- 4 pic of model baju dgn pose yg berbeeza(dpan/ tepi/blkng)
+image 1- atlet background; untuk muka hadapan
+
+logo (store(dark n white), kerjasama[coca-cola,oppo, paypal, philips, ]
+menu or hamburger.png/svg
+download on google play
+
+product4- baju (diff color)
+product 5 - kasut (diff 2x)
+product 7- sock
+product 8-9; watches
+product 10-11( kasut
+product 12 - seluar (diff)
+
+user 1-3 -prof pic
+
+
+
+
+
+
+
+
+
+
