@@ -1,0 +1,218 @@
+/* Root */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden; 
+    /* max-width: 1250px; */
+}
+
+.NavBar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: white;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+p{
+    color: rgb(95, 93, 93);
+}
+
+.container{
+    /* max-width: 1300px;
+    margin: auto; */
+    /* padding-left: 25px;
+    padding-right: 25px; */
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col2{
+    margin-left: 20px;
+    /* flex-basis: 50%;
+    min-width: 300px; */
+}
+
+.col2 img{
+    /* max-width: 120%; 
+    padding: 50px 0;*/ 
+    filter: drop-shadow(3px 3px 3px #5f5c5c);
+    padding-right: 50px;
+}
+
+.col2 h1{
+    font-size: 70px;
+}
+
+.btn{
+    display: inline-block;
+    background: rgb(205, 43, 43);
+    color: white;
+    margin: 30px 0;
+    padding: 8px 30px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 2px #4b4949);
+    transition: background 0.25s;   /*in seconds*/
+}
+
+.btn:hover{
+    background: rgb(208, 75, 75);
+}
+
+.header{
+    background: radial-gradient(rgb(189, 173, 173), rgb(219, 205, 205));
+    /* ellipse at center, rgb(189, 173, 173) 0%, rgb(219, 205, 205) 0%, rgb(148, 114, 114) 100% */
+}
+
+.header .row{
+    margin-top: 70px;
+}
+
+    .categories{
+        margin: 50px 0;
+    }
+
+    .col4{
+        flex-basis: 25%;
+        min-width: 25%;
+        margin-bottom: 30px;
+    }
+
+    .col4 img{
+        width: 100%;
+    }
+
+    .small_container{
+        margin: auto;
+        max-width: 1600px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+.top_products{
+    margin: 50px 0;   
+}
+
+.col5{
+    flex-basis: 20%;
+    min-width: 20%;
+    margin-bottom: 50px;
+    transition: transform 0.3s;
+}
+
+.col5 img{
+    width: 100%;
+}
+
+.col5:hover{
+    transform: translateY(-5px);
+    border: 1px solid rgb(208, 75, 75);
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;    /*top rigt/left bottom*/
+    position: relative;
+    line-height: 60px;  /*distance/height between texts*/
+}
+
+.title:after{
+    content: '';
+    width: 180px;
+    height: 5px;
+    border-radius: 5px;
+    background:  rgb(205, 43, 43);
+    /* The element is positioned relative to its first positioned (not static) ancestor element */
+    position: absolute;
+    bottom: 0;
+    left: 38.5%;
+    transform: translateX(50%);
+}
+
+.rating{
+    color: rgb(205, 43, 43);
+}
+
+.title2{
+    text-align: center;
+    margin: 0 auto 80px;    /*top rigt/left bottom*/
+    position: relative;
+    line-height: 60px;  /*distance/height between texts*/
+}
+
+.title2:after{
+    content: '';
+    width: 180px;
+    height: 5px;
+    border-radius: 5px;
+    background:  rgb(205, 43, 43);
+    /* The element is positioned relative to its first positioned (not static) ancestor element */
+    position: absolute;
+    bottom: 0;
+    left: 41.5%;
+    transform: translateX(50%);
+}
+
+.search_more{
+        display: inline-block;
+        justify-content: center;
+        background: rgb(205, 43, 43);
+        color: white;
+        margin: 30px 0;
+        padding: 15px 50px;
+        border-radius: 10px;
+        filter: drop-shadow(2px 2px 2px #4b4949);
+        transition: background 0.25s;   /*in seconds*/
+}
+
+.search_more:hover{
+    background: rgb(208, 75, 75);
+}
+
+.BubbleQA{
+    font-size: 1.2em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px 30px;
+    background: rgb(205, 43, 43);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;  
+    box-sizing: border-box;
+    height: 48px;
+    width: 100px;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    /* transform: translateX(0);
+    transform-origin: right bottom; */
+}
+
