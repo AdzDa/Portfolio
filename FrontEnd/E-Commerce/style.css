@@ -190,7 +190,7 @@ p{
     min-width: 50%;
     align-items: center;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .col2A ul{
@@ -209,6 +209,15 @@ p{
     margin-left: 300px;
 }
 
+.col3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col3 img{
+    width: 100%;
+}
 
 .BubbleQA{
     font-size: 1.2em;
@@ -230,3 +239,29 @@ p{
     transform-origin: right bottom; */
 }
 
+.testimony{
+    margin-top: 50px;
+}
+
+.testimony .col3{
+    height: 300px;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.25s;
+}
+
+.testimony .col3 img{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.testimony .col3:hover{
+    transform: translateY(-10px);
+}
+
+.testimony .col3 p{
+    font-size: 12px;
+}
